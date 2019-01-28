@@ -8,7 +8,7 @@ MAINTAINER Hugo Blom hugo.blom1@gmail.com
 ADD https://xteve.de:9443/download/?os=linux&arch=arm&name=xteve&beta=false /xteve/xteve
 
 # Set executable permissions
-RUN chmod +x /xteve/xteve
+#RUN chmod +x /xteve/xteve
 
 # Volumes
 VOLUME /root/xteve
